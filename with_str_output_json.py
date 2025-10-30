@@ -8,7 +8,7 @@ load_dotenv()
 
 model = ChatGoogleGenerativeAI(api_key=os.getenv("GEMINI_API_KEY"), model="gemini-2.5-flash")
 
-# schema
+
 json_schema = {
   "title": "Review",
   "type": "object",
